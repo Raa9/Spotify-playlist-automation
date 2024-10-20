@@ -25,24 +25,24 @@ Ensure you have the following installed:
 
 1. Clone the repository
 
-'''bash
+```bash
 git clone <repository-url>
 cd <repository-directory>
-'''
+```
 
 2. Create a virtual environment
 
-bash'''
+```bash
 python3 -m venv venv
 source venv/bin/activate
-'''
+```
 
 
 3. Install the dependencies
 
-'''bash
+```bash
 pip install flask spotipy python-dotenv
-'''
+```
 
 4. Configure environment variables
 
@@ -58,9 +58,9 @@ Replace placeholders with your actual Spotify credentials.
 
 5. Run the application
 
-'''bash
+```bash
 python3 app.py
-'''
+```
 
 6. Access the app
 
@@ -72,23 +72,23 @@ Open your browser and go to http://<your-ec2-instance-ip>:8888/.
 
 1. Clone the repository
 
-'''bash
+```bash
 git clone <repository-url>
 cd <repository-directory>
-'''
+```
 
 2. Create a virtual environment
 
-'''bash
+```bash
 python -m venv venv
 venv\Scripts\activate
-'''
+```
 
 3. Install the dependencies
 
-'''bash
+```bash
 pip install flask spotipy python-dotenv
-'''
+```
 
 4. Configure environment variables
 
@@ -104,9 +104,9 @@ Replace placeholders with your actual Spotify credentials.
 
 5. Run the application
 
-'''bash
+```bash
 python app.py
-'''
+```
 
 
 6. Access the app
